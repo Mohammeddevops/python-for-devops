@@ -1,6 +1,7 @@
 Why Python
 what is the different betwen python and shell script?
-
+---------------------------------------------------------------------------------------------
+KEYWORDS:
 
 Important keywords to know in the programming language?
 1. Keywords
@@ -10,9 +11,56 @@ Important keywords to know in the programming language?
 
 Note: Without keywords no program can be written
       String cannot be concatinate with int.
+
+------------------------------------------------------------------------------------------
+
+VARIABLE:
+
 You can directly assign variable without declaring the type of the variable.
 
 NOTE on variable:
 1. lower case
 2. snake or  camel caseing
 3. descritive as much as possible.
+--------------------------------------------------------------------------------------------
+
+FUNCTION:
+
+Advantages of using function:
+1. readability
+2. re-usability (modularity)
+3. debugging 
+
+Function takes input and returns output
+
+steps of the function:
+input
+perform the requoired
+return the output
+
+--------------------------------------------------------------------------------------------
+MODULES:
+
+what is module?
+Its a group of a function or collection of functions
+
+--------------------------------------------------------------------------------------------
+PACKAGES / LIBRARY:
+collection of modules
+
+python artifactory or python hub just like the docker hub
+PYPI -> python package index
+
+you can search it and google for modules
+
+--------------------------------------------------------------------------------------------
+VIRTUAL ENVVIRONMENT:
+
+pip install virtualenv
+
+to create a new virtual env:
+syntax: python -m venv project01
+        ls -ltr
+
+to get into that virtual env:
+syntax: source project01/bin/activate (now your in project01 env)
