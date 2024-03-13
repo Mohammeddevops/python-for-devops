@@ -1,2 +1,18 @@
 Why Python
 what is the different betwen python and shell script?
+
+
+Important keywords to know in the programming language?
+1. Keywords
+2. data type
+3. operators
+4. Logic reasoning
+
+Note: Without keywords no program can be written
+      String cannot be concatinate with int.
+You can directly assign variable without declaring the type of the variable.
+
+NOTE on variable:
+1. lower case
+2. snake or  camel caseing
+3. descritive as much as possible.
