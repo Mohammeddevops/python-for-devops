@@ -64,3 +64,29 @@ syntax: python -m venv project01
 
 to get into that virtual env:
 syntax: source project01/bin/activate (now your in project01 env)
+
+--------------------------------------------------------------------------------------------
+COMMAND LINE ARGUMENTS AND ENV VARIABLE:
+for command line arguments use modules "sys"
+syntax: sys.arg[1]
+
+sys is not the pypi module its already present in the python installation, so its an inbuild module. 
+
+-------------------------------------------------------------------------------------------
+LOOPS:
+repetative action on perticular block of code. 
+
+FOR LOOP: 
+      when you know perticular blocks of code. for specific number of times.
+
+syntax fo for loop:
+      for <variable> in range()
+                        <sequence>
+WHILE LOOP:
+      when there is not defenite number of iterations. 
+      which is dynamically iterated based on the situation.
+--------------------------------------------------------------------------------------------
+
+LOOPS MANUPULATION:
+1. BREAK
+2. CONTINUE
