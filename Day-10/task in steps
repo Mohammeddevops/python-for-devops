@@ -1,0 +1,6 @@
+Task
+1. Read input from the user (folder)
+2. For loop, folder --> list file.
+3. Identify module
+4. Print file
+5. Handle any known errors
