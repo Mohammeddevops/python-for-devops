@@ -90,3 +90,7 @@ WHILE LOOP:
 LOOPS MANUPULATION:
 1. BREAK
 2. CONTINUE
+
+--------------------------------------------------------------------------------------------
+Exceptional handeling:
+insted of terminating for a known error giving a proper error message and program to be processed. 
