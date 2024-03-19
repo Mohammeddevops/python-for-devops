@@ -93,4 +93,18 @@ LOOPS MANUPULATION:
 
 --------------------------------------------------------------------------------------------
 Exceptional handeling:
-insted of terminating for a known error giving a proper error message and program to be processed. 
+Insted of terminating for a known error giving a proper error message and program to be processed. 
+
+--------------------------------------------------------------------------------------------
+Dictionary:
+access github using api or cli
+steps involved in this:
+1. request (install this module)
+2. API (URL)
+3. JSON to Dictionary (because python cannot perform directlly with JSON so will convert it to dictionary)
+4. print the required thing
+
+--------------------------------------------------------------------------------------------
+File Operation:
+read 
+write
