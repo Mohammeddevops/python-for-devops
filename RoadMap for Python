@@ -1,0 +1,82 @@
+Introduction
+  what is python?
+  why python?
+  python scripting vs shell scripting
+
+Python topics:
+print()
+input function
+variable
+variable naming rule
+type error & type conversion
+
+Data Type
+Type checking
+operators & operands
+arthimetic 
+assignment
+comparision
+logical
+bitwise
+identity 
+membership
+
+round()
+f-string
+
+conditional:
+if - else - elif statement 
+nested if else - elif
+
+List and List function
+Nested list
+random module
+index error
+
+sets
+range()
+
+for loop
+while loop
+break, continue, pass
+
+indentation
+
+functions:
+functions with arguments
+type of arguments
+function with returns
+
+print vs returns
+
+Dictionary:
+
+local and global variable
+
+global keywords
+
+oops
+class and object
+self __init__()
+class method
+
+inheritance
+abstraction
+abstract class and abstract method
+access modifier
+encapsulation
+polymorphism
+
+file handeling
+
+modules
+
+operator overloading
+method overloading
+
+pip and pypi
+
+if __name__=='__main__"
+
+python turtle
+
