@@ -15,7 +15,7 @@ CREATING PYTHON VARIABLE:
 DATATYPE USER - INPUT
   DataType:  
   Test-type: string (str)
-  Numeric Type: INteger
+  Numeric Type: Integer(int)
 
 
 Python topics:
