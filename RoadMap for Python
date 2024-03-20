@@ -6,14 +6,14 @@ Introduction
 COMMENTS IN PYTHON
   single line comment use #
 
-creating python variable:
-  variables : its a container which can hold a data inside it as value.
+CREATING PYTHON VARIABLE:
+  variables : Its a container which can hold a data inside it as value.
   NOTE: variable are case sensitive
-        cant use space in between
-        cant start with number and special symbols
+        can't use space in between
+        can't start with number and special symbols
 
-Datatypes and User-Input:
-DataType:  
+DATATYPE USER - INPUT
+  DataType:  
   Test-type: string (str)
   Numeric Type: INteger
 
@@ -28,37 +28,61 @@ type error & type conversion
 Data Type
 Type checking
 operators & operands
-arthimetic 
-assignment
-comparision
-logical
-bitwise
-identity 
-membership
+operators:
+  arthimetic: + - * / 
+  assignment "=",  
+  comparision
+  logical
+  bitwise
+  identity 
+  membership
 
-round()
-f-string
-range()
+operands:
+number or variable or a letter
 
 conditional:
 if - else - elif statement 
-nested if else - elif
+nested if - else - elif
 
 List and List function
 Nested list
 random module
 index error
 
-Lists
-Tuples
-Sets
-Dictionaries
+DATA STRUCTURE 
+  Lists
+  Tuples
+  Sets
+  Dictionaries
 
-for loop
-while loop
+LOOPS:
+  for loop
+  while loop
 break, continue, pass
 
+OOPS:
+  class and object
+  self __init__()
+  class method
+
+OOPS CONCEPTS:
+  inheritance
+  abstraction
+    abstract class and abstract method
+    access modifier
+  encapsulation
+  polymorphism
+
+PACKAGE MANAGEMENT:
+  pip and pypi
+
+
 indentation
+
+round()
+f-string
+range()
+
 
 functions:
 functions with arguments
@@ -71,17 +95,6 @@ local and global variable
 
 global keywords
 
-oops
-class and object
-self __init__()
-class method
-
-inheritance
-abstraction
-abstract class and abstract method
-access modifier
-encapsulation
-polymorphism
 
 file handeling
 
@@ -89,8 +102,6 @@ modules
 
 operator overloading
 method overloading
-
-pip and pypi
 
 if __name__=='__main__"
 
