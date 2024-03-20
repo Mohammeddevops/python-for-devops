@@ -15,8 +15,39 @@ CREATING PYTHON VARIABLE:
 DATATYPE USER - INPUT
   DataType:  
   Test-type: string (str)
-  Numeric Type: Integer(int)
+  Numeric Types: Integer(int), float, complex
+  sequence Types: List, tuple, range
+  Mapping Type: Dictionries(dict)
+  Set Types: Set, Frozenset
+  Boolean Type: Bool
+  Binary: Bytes, Bytearray, Memoryview.
+  evaluate: eval -> mathematical operation, python function operation.
 
+Type-casting and Substring:
+  Implicit: python itself convert one of the data type  
+  Explicit: where the user convert one datatype to another. 
+
+PROBLEM QUESTION TILL NOW:
+1. Write a program to display a person's name, age and address in the three different line.
+2. Write a program to swap a two variable.
+3. Write a program to convert a float into integer.
+4. Write a program to take a details from the student for ID-card and then print it in the different lines.
+5. Write a program to take an user input as integer then convert it into float.
+
+OPERATORS AND OPERANDS:
+Operands: indicates what operation is to be performed.
+a, x, y
+Operators: indicated on what the action or the operation should be performed
++, -, * ...
+
+OPERATORS:
+  Arthimetic: addition(+), sub(-), mul(*), Division(/), Exponentiation(**), Floor division(//) -> in quotient before decimal point, Modulus (%)
+  Assignment: ==, +=, -=, *=.  
+  Comparision: lesser than (<), Equal to (==), Greater than or equal to(>=), Greater than (>), Less than  or equal to(<=), Not equal to(!=). 
+  Logical: and, or, not.
+  Bitwise
+  Identity: Is, Is not
+  Membership
 
 Python topics:
 print()
@@ -28,14 +59,7 @@ type error & type conversion
 Data Type
 Type checking
 operators & operands
-operators:
-  arthimetic: + - * / 
-  assignment "=",  
-  comparision
-  logical
-  bitwise
-  identity 
-  membership
+
 
 operands:
 number or variable or a letter
