@@ -3,6 +3,21 @@ Introduction
   why python?
   python scripting vs shell scripting
 
+comments in python
+  single line comment use #
+
+creating python variable:
+  variables : its a container which can hold a data inside it as value.
+  NOTE: variable are case sensitive
+        cant use space in between
+        cant start with number and special symbols
+
+Datatypes and User-Input:
+DataType:  
+  Test-type: string (str)
+  Numeric Type: INteger
+
+
 Python topics:
 print()
 input function
@@ -23,6 +38,7 @@ membership
 
 round()
 f-string
+range()
 
 conditional:
 if - else - elif statement 
@@ -33,8 +49,10 @@ Nested list
 random module
 index error
 
-sets
-range()
+Lists
+Tuples
+Sets
+Dictionaries
 
 for loop
 while loop
@@ -48,8 +66,6 @@ type of arguments
 function with returns
 
 print vs returns
-
-Dictionary:
 
 local and global variable
 
