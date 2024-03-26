@@ -121,10 +121,20 @@ A = "Why fit in, when you are bourn to stand out"
 
 ---------------------------------------------------------------------------------------------------------------
 
+Strings: Strings are the combination of number, symbols and letters, enclosed inside quotions.
+Functions in strings part-1: 
+1. length
+2. count
+3. upper
+4. lower
+5. index 
+6. capitalize -> convert first letter into capital
+7. casefold -> convert string into lower case
+8. find -> find index of the number character
+9. format {}  -> to write a variable inside a string
+10. center(20, "*") -> fill the given character and centralizes a string
 
-
-
-
+Function in strings part-2
 
 
 Python topics:
