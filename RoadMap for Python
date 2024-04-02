@@ -140,6 +140,7 @@ Function in strings part-2
 2. isalpha - return true if all character in the stringare in alphabets
 3. isdecimal - return true if all character in the string in decimal
 4. isdegit - return true if all character in the string are in degit
+5. isnumeric - return true if all character in the string
 
 
 
