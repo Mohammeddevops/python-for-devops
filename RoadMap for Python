@@ -130,11 +130,17 @@ Functions in strings part-1:
 5. index 
 6. capitalize -> convert first letter into capital
 7. casefold -> convert string into lower case
-8. find -> find index of the number character
-9. format {}  -> to write a variable inside a string
+8. find -> find index of the number character    eg: print(a.find("a",15,34))
+9. format {}  -> to write a variable inside a string    eg: a= "my name is {}"   print(a.format(a))
 10. center(20, "*") -> fill the given character and centralizes a string
 
 Function in strings part-2
+1. isalnum - return true if all character in the string are alphanumeric
+   print(a,a.isalnum())
+2. isalpha - return true if all character in the stringare in alphabets
+3. isdecimal - return true if all character in the string in decimal
+4. isdegit - return true if all character in the string are in degit
+
 
 
 Python topics:
