@@ -140,7 +140,17 @@ Function in strings part-2
 2. isalpha - return true if all character in the stringare in alphabets
 3. isdecimal - return true if all character in the string in decimal
 4. isdegit - return true if all character in the string are in degit
-5. isnumeric - return true if all character in the string
+5. isnumeric - return true if all character in the string are numeric
+6. islower - check if the string is lower or not 
+7. isupper - return true if all character in the string are upper
+8. isspace - return true if all character in the string are whitespace (full string should be in whitespace)
+9. istitle - return true if all character in the string (all first letter should be in capital)
+
+Function in strings part-3
+1. ljust
+2. rjust
+
+
 
 
 
