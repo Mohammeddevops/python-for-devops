@@ -147,8 +147,22 @@ Function in strings part-2
 9. istitle - return true if all character in the string (all first letter should be in capital)
 
 Function in strings part-3
-1. ljust
-2. rjust
+1. ljust  -> return the left justified version of string 
+2. rjust  -> return the right justified version of string
+3. startswith()  -> returns true if the string starts with the specific value  
+4. endswith  -> returns true if the string ends with the specific value
+   print(a.endswith("r",10.12))
+5. swapcase()  -> lower case become upper case and upper become lower, vice versa.
+6. strip()  -> return a trimmed version of the string (remove the extra spaces or dot or * in the string)
+   print(a.strip("*,"))
+7. split()  -> split the string at the specific separator, returns a list.
+8. replace()  -> return the string with the specific value is replaced with a specific value.
+9. rindex()  -> searches the string for a specified value and returns the last position of where it was found (basicaly to check the index number if the given)
+10. rfind()
+
+
+Slicing in strings:
+
 
 
 
