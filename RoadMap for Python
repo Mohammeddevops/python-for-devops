@@ -158,10 +158,19 @@ Function in strings part-3
 7. split()  -> split the string at the specific separator, returns a list.
 8. replace()  -> return the string with the specific value is replaced with a specific value.
 9. rindex()  -> searches the string for a specified value and returns the last position of where it was found (basicaly to check the index number if the given)
-10. rfind()
+10. rfind()  -> searches the string in a specified value and returns
+
 
 
 Slicing in strings:
+  1. string slicing
+
+
+PROBLEM SOLVING:
+  1. write a program to get febonnacci series up to 10 number.
+  2. write a program to check if the number is prime or not
+  3. write a program to find the palindrom 
+  4. write a program to create an calculator
 
 
 
