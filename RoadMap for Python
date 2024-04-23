@@ -172,6 +172,25 @@ PROBLEM SOLVING:
   3. write a program to find the palindrom 
   4. write a program to create an calculator
 
+PROBLEM SOLVING:
+  A = "OOTD.YOLO.ASAP.BRB.GTG.OTW"
+  1. write a program to seperate the following string into comma(,) separated values.
+  2. write a program to sort string alphanumerically in python
+  3. write a program to remove a given character from the string.
+     Z = "F.R.I.E.N.D.S"
+  4. write a program to remove the dot(.) from the following string
+  5. write a program to check the number of occurrence substring in a string
+
+PROBLEM SOLVING:
+  1. Take a input from the user as a string then, reverse it.
+  2. write a program to check if a string contains only digits
+  3. write a program to check if a string is a palindrom
+  4. write a program to find the number vowels in a string
+  5. write a program to check if every word in a string begins with a capital letter
+
+5.50 
+
+
 
 
 
