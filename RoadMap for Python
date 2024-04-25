@@ -188,7 +188,12 @@ PROBLEM SOLVING:
   4. write a program to find the number vowels in a string
   5. write a program to check if every word in a string begins with a capital letter
 
-5.50 
+Lists:
+  Lists are the collection of ordered and mutable data
+  * List are written inside the square bracket
+  * the value inside the list are written in bracket
+  * mutable means once created, they can be changed
+  * multiple datatypes can be written inside a list
 
 
 
