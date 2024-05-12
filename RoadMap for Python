@@ -195,6 +195,71 @@ Lists:
   * mutable means once created, they can be changed
   * multiple datatypes can be written inside a list
 
+Slicing Lists:
+
+List Iteration:
+  * Iteration using for loop
+  * Iteration using for loop with range and length
+  * Iteration using while loop
+  * using Short-Hand for loop
+
+
+List Functions Part (1):
+  1. To find the length of a list
+  2. To count a occurence of a perticular element
+  3. To add to the list 
+  4. To add the specific location
+  5. To remove from a list
+  6. To remove from a certain location
+
+
+List Functions Part (1):
+  1. To create a copy of the list
+  2. To access the element
+  3. To entend the list
+  4. To reverse the list
+  5. To sort the list
+  6. To clear all the data from the list
+
+PROBLEM SOLVING:
+
+A = ["Rose","Rachel", "Monica", "Joe"]
+  1. Write a program to swap first and fourth element.
+  2. Write a program to add new value at second position.
+  3. Write a program to delete a value from 3rd position.
+B = [13, 7, 12, 10]
+  1. Write a program to multiply all the number in the list.
+  2. Write a program to get the largest number from the list.
+  3. Write a program to get the smallest number from the list.
+
+
+
+TUPLES:
+
+Tuples are the collection of ordered and un-mutable data.
+  * For tuple no brackets are mandatory. By choice one can use parentheses.
+  * The inside a Tuple is seperated  by comma(,)
+  * Once created, typles cannot be changed.
+  * Multiple datatypes can be written inside tuples.
+
+Slicing and ItEration in TUPLES:
+
+  * with for loop
+  * alog with range and length in for loop
+  * with while loop
+
+CONVERSION OF TUPLES AND TUPLES FUNCTION:
+
+
+PROBLEM SOLVING:
+
+
+
+
+
+
+
+
 
 
 
