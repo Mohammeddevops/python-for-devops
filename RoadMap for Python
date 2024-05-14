@@ -14,18 +14,18 @@ CREATING PYTHON VARIABLE:
 
 DATATYPE USER - INPUT
   DataType:  
-  Test-type: string (str)
-  Numeric Types: Integer(int), float, complex
-  sequence Types: List, tuple, range
-  Mapping Type: Dictionries(dict)
-  Set Types: Set, Frozenset
-  Boolean Type: Bool, True, False
-  Binary: Bytes, Bytearray, Memoryview.
-  evaluate: eval -> mathematical operation, python function operation.
+  1. Test-type: string (str)
+  2. Numeric Types: Integer(int), float, complex
+  3. sequence Types: List, tuple, range
+  4. Mapping Type: Dictionries(dict)
+  5. Set Types: Set, Frozenset
+  6. Boolean Type: Bool, True, False
+  7. Binary: Bytes, Bytearray, Memoryview.
+  8. evaluate: eval -> mathematical operation, python function operation.
 
 Type-casting and Substring:
-  Implicit: Python itself convert one of the data type  
-  Explicit: Where the user convert one datatype to another. 
+  1. Implicit: Python itself convert one of the data type  
+  2. Explicit: Where the user convert one datatype to another. 
 
 PROBLEM QUESTION TILL NOW:
 1. Write a program to display a person's name, age and address in the three different line.
@@ -41,22 +41,56 @@ Operators: indicated on what the action or the operation should be performed
 +, -, * ...
 
 OPERATORS:
-  Arthimetic: addition(+), sub(-), mul(*), Division(/), Exponentiation(**), Floor division(//) -> in quotient before decimal point, Modulus (%)
-  Assignment: ==, +=, -=, *=.  
-  Comparision: lesser than (<), Equal to (==), Greater than or equal to(>=), Greater than (>), Less than  or equal to(<=), Not equal to(!=). 
-  Logical: and, or, not.
-  Bitwise: AND (&), OR(|), XOR(^), Zero fill left shift (<<), zero fill right shift (>>)
-  Identity: Is, Is not
+  Arthimetic: 
+    1. addition(+), 
+    2. sub(-), 
+    3. mul(*), 
+    4. Division(/), 
+    5. Exponentiation(**), 
+    6. Floor division(//) -> in quotient before decimal point, 
+    7. Modulus (%)
+
+  Assignment: 
+    1. equal to (==)
+    2. +=, 
+    3. -=, 
+    4. *=.
+
+  Comparision: 
+    1. lesser than (<), 
+    2. Equal to (==), 
+    3. Greater than or equal to(>=), 
+    4. Greater than (>), 
+    5. Less than  or equal to(<=), 
+    6. Not equal to(!=).
+
+  Logical: 
+    1. and, 
+    2. or, 
+    3. not.
+
+  Bitwise: 
+    1. AND (&), 
+    2. OR(|), 
+    3. XOR(^), 
+    4. Zero fill left shift (<<), 
+    5. zero fill right shift (>>)
+
+  Identity: 
+    1. Is,
+    2. Is not
+
   Membership: check the presence of a sequence in a object 
-              In, not in
+    1. In, 
+    2. not in
 
 Conditional:
-  if statement
-  if - else statement
-  if - else - elif statement 
-  nested statement
-  short hand statement: if <condition> : <body of if> 
-  short hand if else statement: <body of if> if <condition> else <body of else> 
+  1. if statement
+  2. if - else statement
+  3. if - else - elif statement 
+  4. nested statement
+  5. short hand statement: if <condition> : <body of if> 
+  6. short hand if else statement: <body of if> if <condition> else <body of else> 
 
 PROBLEM SOLVING:
 1. Write a program to check the number is positive or not
