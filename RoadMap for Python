@@ -169,6 +169,14 @@ Functions in strings part-1:
 10. center(20, "*") -> fill the given character and centralizes a string
 
 Function in strings part-2
+a="hello"
+b="Hello123"
+c="123456"
+d="HELLO"
+e=" "
+f="Hello 123@"
+g=" 1.234"
+
 1. isalnum - return true if all character in the string are alphanumeric
    print(a,a.isalnum())
 2. isalpha - return true if all character in the stringare in alphabets
@@ -177,7 +185,7 @@ Function in strings part-2
 5. isnumeric - return true if all character in the string are numeric
 6. islower - check if the string is lower or not 
 7. isupper - return true if all character in the string are upper
-8. isspace - return true if all character in the string are whitespace (full string should be in whitespace)
+8. isspace - return true if all character in the string are whitespace (full string should be in whitespace) only space
 9. istitle - return true if all character in the string (all first letter should be in capital)
 
 Function in strings part-3
