@@ -189,17 +189,28 @@ g=" 1.234"
 9. istitle - return true if all character in the string (all first letter should be in capital)
 
 Function in strings part-3
-1. ljust  -> return the left justified version of string 
-2. rjust  -> return the right justified version of string
-3. startswith()  -> returns true if the string starts with the specific value  
-4. endswith  -> returns true if the string ends with the specific value
-   print(a.endswith("r",10.12))
-5. swapcase()  -> lower case become upper case and upper become lower, vice versa.
-6. strip()  -> return a trimmed version of the string (remove the extra spaces or dot or * in the string)
+a = "Harry Porter"
+1. endswith  -> returns true if the string ends with the specific value (case sensitive)
+   print(a.endswith("r",10,12)) 
+2. startswith()  -> returns true if the string starts with the specific value  (case sensitive)
+3. swapcase()  -> lower case become upper case and upper become lower, vice versa.
+4. strip()  -> return a trimmed version of the string (remove the extra spaces or dot or * in the string)
+   print(a.strip())  # remove unessary the empty spaces from the string
    print(a.strip("*,"))
-7. split()  -> split the string at the specific separator, returns a list.
+5. split()  -> split the string at the specific separator, returns a list.
+   a=("#OFOTD#BRB#OMY#TB")
+   print(a.split())
+   print(a.split("#"))  # --> output in list
+6. ljust  -> return the left justified version of string 
+   x=a.ljust(20,"*")
+   print(x, "is my favorite movie")  # --> after "a" the left shift by some spaces or a mention symbols.
+7. rjust  -> return the right justified version of string. 
 8. replace()  -> return the string with the specific value is replaced with a specific value.
+   a="my name is john"
+   print(a.replace("john","lisa")) # --> this not only for one work, it works for entire string.
 9. rindex()  -> searches the string for a specified value and returns the last position of where it was found (basicaly to check the index number if the given)
+   a="my name is john"
+   print(a.rindex("john"))
 10. rfind()  -> searches the string in a specified value and returns
 
 
