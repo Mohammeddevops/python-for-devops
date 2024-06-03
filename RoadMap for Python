@@ -217,22 +217,27 @@ a = "Harry Porter"
 
 Slicing in strings:
   1. string slicing
+a="harry porter and the goblet of fire"
+print(a[0:7]
+print(a[0:7:2]
 
 
 PROBLEM SOLVING:
   1. write a program to get febonnacci series up to 10 number.
   2. write a program to check if the number is prime or not
   3. write a program to find the palindrom 
-  4. write a program to create an calculator
+  4. write a program to create area of calculator
 
 PROBLEM SOLVING:
-  A = "OOTD.YOLO.ASAP.BRB.GTG.OTW"
+A = "OOTD.YOLO.ASAP.BRB.GTG.OTW"
   1. write a program to seperate the following string into comma(,) separated values.
-  2. write a program to sort string alphanumerically in python
+  2. write a program to sort string alphanumerically in python   
+          a = input("enter anything : ")
+          print(sorted(a))
   3. write a program to remove a given character from the string.
      Z = "F.R.I.E.N.D.S"
   4. write a program to remove the dot(.) from the following string
-  5. write a program to check the number of occurrence substring in a string
+5. write a program to check the number of occurrence substring in a string
 
 PROBLEM SOLVING:
   1. Take a input from the user as a string then, reverse it.
