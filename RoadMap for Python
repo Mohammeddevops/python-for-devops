@@ -218,8 +218,8 @@ a = "Harry Porter"
 Slicing in strings:
   1. string slicing
 a="harry porter and the goblet of fire"
-print(a[0:7]
-print(a[0:7:2]
+print(a[0:7])
+print(a[0:7:2])
 
 
 PROBLEM SOLVING:
@@ -231,13 +231,21 @@ PROBLEM SOLVING:
 PROBLEM SOLVING:
 A = "OOTD.YOLO.ASAP.BRB.GTG.OTW"
   1. write a program to seperate the following string into comma(,) separated values.
+          b=a.split(",")
+          print(b)    -> gives the output in list with comma separated
   2. write a program to sort string alphanumerically in python   
           a = input("enter anything : ")
-          print(sorted(a))
+          print(sorted(a))    -> output in list in alphabetically.
   3. write a program to remove a given character from the string.
-     Z = "F.R.I.E.N.D.S"
+      Z = "F.R.I.E.N.D.S"
+      b = Z.replace("D","")    -> we cant remove istead we can use replace
   4. write a program to remove the dot(.) from the following string
-5. write a program to check the number of occurrence substring in a string
+      b = Z.replace(".","")    -> we cant remove istead we can use replace
+  5. write a program to check the number of occurrence substring in a string
+      a = "she sells seashells on the sea shore"
+      b = a.count("sea")
+
+
 
 PROBLEM SOLVING:
   1. Take a input from the user as a string then, reverse it.
