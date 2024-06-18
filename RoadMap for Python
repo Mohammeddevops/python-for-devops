@@ -1,16 +1,21 @@
 Introduction
   what is python?
   why python?
+  Python IDEs (Integrated Development Environments)
   python scripting vs shell scripting
+  Hello World Program
+  Python Syntax
 
 COMMENTS IN PYTHON
   single line comment use #
+  multi line comments '''    '''
 
 CREATING PYTHON VARIABLE:
   variables : Its a container which can hold a data inside it as value.
   NOTE: variable are case sensitive
         can't use space in between
         can't start with number and special symbols
+  
 
 DATATYPE USER - INPUT
   DataType:  
@@ -26,6 +31,58 @@ DATATYPE USER - INPUT
 Type-casting and Substring:
   1. Implicit: Python itself convert one of the data type  
   2. Explicit: Where the user convert one datatype to another. 
+
+Input/Output
+  Printing Output
+    print("Hello, World!")
+    print("Python is fun!")
+
+  Getting Input from User
+    input()
+  
+  Formatting Output: Using str.format()
+    name = "Alice"
+    age = 30
+    print("Name: {}, Age: {}".format(name, age))
+
+  Using f-Strings (Formatted String Literals)
+    name = "Bob"
+    age = 25
+    print(f"Name: {name}, Age: {age}")
+
+  Reading and Writing Files: 
+    Opening Files
+    -> Use the open() function to open a file. The open() function takes two arguments: the file name and the mode (e.g., read, write, append).
+
+    file = open('example.txt', 'r')  # open for reading
+    file = open('example.txt', 'w')  # open for writing
+    file = open('example.txt', 'a')  # open for appending
+
+  Reading from a File
+  Reading Line by Line
+  Writing to a File
+  Appending to a File
+  Using with Statement
+  Working with CSV Files
+  Writing to CSV Files
+  Using csv.DictReader and csv.DictWriter
+  Working with JSON Files
+  Writing to JSON Files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 PROBLEM QUESTION TILL NOW:
 1. Write a program to display a person's name, age and address in the three different line.
@@ -48,7 +105,7 @@ OPERATORS:
     4. Division(/), 
     5. Exponentiation(**), 
     6. Floor division(//) -> in quotient before decimal point, 
-    7. Modulus (%)
+    7. Modulus (%)  -> reminder
 
   Assignment: 
     1. equal to (==)
@@ -65,9 +122,9 @@ OPERATORS:
     6. Not equal to(!=).
 
   Logical: 
-    1. and, 
-    2. or, 
-    3. not.
+    1. and, -> both should be true
+    2. or,  -> any one should be true
+    3. not. 
 
   Bitwise: 
     1. AND (&), 
@@ -83,6 +140,14 @@ OPERATORS:
   Membership: check the presence of a sequence in a object 
     1. In, 
     2. not in
+
+
+Control Flow
+    if, elif, else Statements (Conditional)
+    for Loops
+    while Loops
+    break and continue Statements
+    pass Statement
 
 Conditional:
   1. if statement
@@ -201,6 +266,7 @@ a = "Harry Porter"
    a=("#OFOTD#BRB#OMY#TB")
    print(a.split())
    print(a.split("#"))  # --> output in list
+       note: in string its should be there what is in split() like her #
 6. ljust  -> return the left justified version of string 
    x=a.ljust(20,"*")
    print(x, "is my favorite movie")  # --> after "a" the left shift by some spaces or a mention symbols.
@@ -220,7 +286,7 @@ Slicing in strings:
 a="harry porter and the goblet of fire"
 print(a[0:7])
 print(a[0:7:2])
-
+print(a[::-1])  -> reverse the string
 
 PROBLEM SOLVING:
   1. write a program to get febonnacci series up to 10 number.
