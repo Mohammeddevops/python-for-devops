@@ -302,6 +302,7 @@ A = "OOTD.YOLO.ASAP.BRB.GTG.OTW"
   2. write a program to sort string alphanumerically in python   
           a = input("enter anything : ")
           print(sorted(a))    -> output in list in alphabetically.
+          o/p: ['.', '.', '.', '.', '.', 'A', 'A', 'B', 'B', 'D', 'G', 'G', 'L', 'O', 'O', 'O', 'O', 'O', 'P', 'R', 'S', 'T', 'T', 'T', 'W', 'Y']
   3. write a program to remove a given character from the string.
       Z = "F.R.I.E.N.D.S"
       b = Z.replace("D","")    -> we cant remove istead we can use replace
@@ -319,6 +320,19 @@ PROBLEM SOLVING:
   3. write a program to check if a string is a palindrom
   4. write a program to find the number vowels in a string
   5. write a program to check if every word in a string begins with a capital letter
+
+ADDITIONAL PROBLEM QUESTIONS:
+
+  Reverse a String:
+  Count Vowels and Consonants:
+  Check Palindrome:
+  Check Anagrams:
+  Count Words in a String:
+  Capitalize Words:
+  Remove Duplicates:
+
+
+6:01
 
 Lists:
   Lists are the collection of ordered and mutable data
