@@ -316,10 +316,19 @@ A = "OOTD.YOLO.ASAP.BRB.GTG.OTW"
 
 PROBLEM SOLVING:
   1. Take a input from the user as a string then, reverse it.
+     a=input()
+     print(::-1)
   2. write a program to check if a string contains only digits
+     a= a.isdigit()
   3. write a program to check if a string is a palindrom
+     print(a[::-1])
   4. write a program to find the number vowels in a string
+     vowels = 0
+     for i in a:
+       if i==1 or i== 0....
   5. write a program to check if every word in a string begins with a capital letter
+     print(a.istitle())
+
 
 ADDITIONAL PROBLEM QUESTIONS:
 
