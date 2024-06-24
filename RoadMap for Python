@@ -170,8 +170,7 @@ INTRODUCTION TO LOOPS:
 Types of loops:
   1. For loops
   2. While loops
-  3. While True
-  4. Nested loops
+  3. Nested loops
 
 For loop: The loop that repeats something in a given range.
           The range of the starting point, and step gap in that
@@ -181,7 +180,7 @@ Syntax:
 
 While loops:
           While loop executive till the given condition is True.
-          in While loop increment is dine inside 
+          in While loop increment is define inside 
 Syntax:
       while <body>
       while <condition>  
@@ -344,28 +343,53 @@ ADDITIONAL PROBLEM QUESTIONS:
 6:01
 
 Lists:
-  Lists are the collection of ordered and mutable data
-  * List are written inside the square bracket
+  Lists are the collection of ordered[indexing] and mutable data
+  * List are written inside the square bracket []
   * the value inside the list are written in bracket
   * mutable means once created, they can be changed
   * multiple datatypes can be written inside a list
+
+
 
 Slicing Lists:
 
 List Iteration:
   * Iteration using for loop
+    A = [ "Hulk", "Thor", "Ironman", "Captain America"]
+    for i in A:
+      print(i)
+
   * Iteration using for loop with range and length
+    A = [ "Hulk", "Thor", "Ironman", "Captain America"]
+    for i in range(len(a)):
+      print(a[i])   -> in range perticular element
+
   * Iteration using while loop
+    i=0
+    while i<(len(a))
+      print(a[i])
+      i=i+1
   * using Short-Hand for loop
+    [print(i) for i in a]
+
 
 
 List Functions Part (1):
+A = [ "Hulk", "Thor", "Ironman", "Captain America"]
   1. To find the length of a list
+      print(A)
+      print(len(A))   #-> in numbers
   2. To count a occurence of a perticular element
+      print(A.count("Hulk"))    
   3. To add to the list 
+      A.append("spiderman")
   4. To add the specific location
+      A.insert(1,"spiderman")
+      print(A)      
   5. To remove from a list
+      A.remove("spiderman")
   6. To remove from a certain location
+      A.pop(1)
 
 
 List Functions Part (1):
@@ -387,7 +411,11 @@ B = [13, 7, 12, 10]
   2. Write a program to get the largest number from the list.
   3. Write a program to get the smallest number from the list.
 
-
+print(A[1])
+print(A[1:])
+print(A[:5])
+print(A[::2])
+print(A[-3:-1])
 
 TUPLES:
 
