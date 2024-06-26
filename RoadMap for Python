@@ -548,19 +548,44 @@ a=("oneplus", "redmi", "samsung", "nothing")
 
 CONVERSION OF TUPLES AND TUPLES FUNCTION:
 
-tuple to list:
+tuple to list and append it then back to tuple:
 
 a=("oneplus", "redmi", "samsung", "nothing")
-print(type(a))   -> tuple
+print(type(a))   
 b=list(a)
 print(b)
-
+b.append("realme")
+print(type(b))   
+print(b)
+a=tuple(b)
+print(type(a))   
+print(a)
 
 a=("oneplus", "redmi", "samsung", "nothing")
+a.count("redmi")  -> 1
+a.index("redmi")  -> 1
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 PROBLEM SOLVING:
+
+1. Convert the following dictionary into JSON format.
+   Student_data={"name":"David","age":13,"mark": 87}
+2. Access the value of the age from the given data
+   Student_data={"name":"David","age":13,"mark": 87}
+3. Pretty print following JSON data
+   Student_data={"name":"David","age":13,"mark": 87}
+4. Sort the follwoing keys and write them into file
+   Student_data={"name":"David","age":13,"mark": 87}
+5. Access the nested key marks from the following nested data
+   """ { "student":{
+         "grade":{
+         "name": "David",
+         "marks":{
+         "math": 87,}
+        }
+   }""" 
+
 
 
 
