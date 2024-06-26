@@ -342,18 +342,31 @@ ADDITIONAL PROBLEM QUESTIONS:
 
 6:01
 
-Lists:
+##################################################################################################################################################
+
+LISTS:
   Lists are the collection of ordered[indexing] and mutable data
   * List are written inside the square bracket []
   * the value inside the list are written in bracket
   * mutable means once created, they can be changed
   * multiple datatypes can be written inside a list
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
+SLICING LISTS:
 
-Slicing Lists:
+A = [ "Hulk", "Thor", "Ironman", "Captain America"]
 
-List Iteration:
+print(A[1])
+print(A[1:])
+print(A[:5])
+print(A[::2])
+print(A[-3:-1])
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+LIST ITERATION:
+
   * Iteration using for loop
     A = [ "Hulk", "Thor", "Ironman", "Captain America"]
     for i in A:
@@ -372,9 +385,10 @@ List Iteration:
   * using Short-Hand for loop
     [print(i) for i in a]
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
+LIST FUNCTIONS PART (1):
 
-List Functions Part (1):
 A = [ "Hulk", "Thor", "Ironman", "Captain America"]
   1. To find the length of a list
       print(A)
@@ -391,9 +405,26 @@ A = [ "Hulk", "Thor", "Ironman", "Captain America"]
   6. To remove from a certain location
       A.pop(1)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+LIST COMPREHENSION:
 
+Eg:
+  l1=[13, 2, 35, 23]
+  l2=[]
+  for i in l1:
+    l2.append(i)
+  print(l2)
 
-List Functions Part (1):
+In one line:
+l3=[i for i in l1 if i > 45]
+print(l3)
+
+One more method by list constructor:
+l3=list(l1)
+print(l2)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+LIST FUNCTIONS PART (2):
 
 A = [ "Hulk", "Thor", "Ironman", "Captain America"]
 
@@ -402,29 +433,72 @@ A = [ "Hulk", "Thor", "Ironman", "Captain America"]
       l2=[]
       l2=l1.copy()
       print(l2)
+
   2. To access the element
-      
+      print(A.index("Ironman")
+
   3. To entend the list
+      c=["vivsion", "spiderman"]
+      A.extend(c)
+      print(A)
+
   4. To reverse the list
+      A.reverse()
+      print(A)
+
   5. To sort the list
+      A.sort()
+      print(A)  -> in alphabetically
+
   6. To clear all the data from the list
+      A.clear()
+      print(A)  -> clear the list, and make the list empty
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
 PROBLEM SOLVING:
 
 A = ["Rose","Rachel", "Monica", "Joe"]
-  1. Write a program to swap first and fourth element.
-  2. Write a program to add new value at second position.
-  3. Write a program to delete a value from 3rd position.
-B = [13, 7, 12, 10]
-  1. Write a program to multiply all the number in the list.
-  2. Write a program to get the largest number from the list.
-  3. Write a program to get the smallest number from the list.
 
-print(A[1])
-print(A[1:])
-print(A[:5])
-print(A[::2])
-print(A[-3:-1])
+  1. Write a program to swap first and fourth element.
+      A[0],A[3]=A[3],A[0]
+      print(A)
+
+  2. Write a program to add new value at second position.
+      A.insert(1,"phoebe")
+      print(A)
+
+  3. Write a program to delete a value from 3rd position.
+      A.pop(2)
+      print(A)
+
+
+
+B = [13, 7, 12, 10]
+
+  1. Write a program to multiply all the number in the list.
+      mul=1
+      for i in B:
+        mul=i*mul
+      print(mul)
+
+NOTE:
+      mul=1
+      for i in B:
+        r=i*mul  -> her r will be overwritten
+      print(r)
+
+  2. Write a program to get the largest number from the list.
+      B.sort()  -> a - z
+      ln=B[-1]  -> her -1 means last number after sort which is the largest
+      print(ln)
+
+  3. Write a program to get the smallest number from the list.
+      B.sort()  -> a - z
+      ln=B[0]  -> her 0 means first index number after sort which is the smallest
+      print(ln)
+
+###############################################################################################################################################
 
 TUPLES:
 
@@ -434,7 +508,25 @@ Tuples are the collection of ordered and un-mutable data.
   * Once created, typles cannot be changed.
   * Multiple datatypes can be written inside tuples.
 
+Example of tuple:
+  a=("apple","mango","banana", "promagranate", 1, 2, 6.7)
+  a="apple","mango","banana", "promagranate", 1, 2, 6.7
+  a="orange",    -> comma is very important or else its a string
+
+empty tuple:  tuple that contain no element
+  a=()    
+
 Slicing and ItEration in TUPLES:
+
+a=("oneplus", "redmi", "samsung", "nothing")
+print(a[2])
+print(a[1:3])
+print(a[:3])
+print(a[2:])
+print(a[::2])
+print(a[::-1])
+print(a[-1])
+
 
   * with for loop
   * alog with range and length in for loop
