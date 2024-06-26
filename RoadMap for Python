@@ -521,18 +521,43 @@ Slicing and ItEration in TUPLES:
 a=("oneplus", "redmi", "samsung", "nothing")
 print(a[2])
 print(a[1:3])
-print(a[:3])
-print(a[2:])
-print(a[::2])
-print(a[::-1])
-print(a[-1])
+print(a[:3])  -> oneplus to samsung
+print(a[2:])  -> samsung and nothing
+print(a[::2])  -> gap of 2 (redmi and nothing)
+print(a[::-1])  -> reverse
+print(a[-1])  -> nothing
+print(a[2::-1])  -> samsung to oneplus
 
+
+a=("oneplus", "redmi", "samsung", "nothing")
 
   * with for loop
-  * alog with range and length in for loop
+      for i in a:
+        print(i)  -> gives the value of index like 0,1,2,3
+
+  * along with range and length in for loop
+      for i in len(a):
+        print(a[i])  -> gives name in vertical forms
+
   * with while loop
+      i=0
+      while i < len(a):
+        print(a[i])
+        i=i+1
+
 
 CONVERSION OF TUPLES AND TUPLES FUNCTION:
+
+tuple to list:
+
+a=("oneplus", "redmi", "samsung", "nothing")
+print(type(a))   -> tuple
+b=list(a)
+print(b)
+
+
+a=("oneplus", "redmi", "samsung", "nothing")
+
 
 
 PROBLEM SOLVING:
