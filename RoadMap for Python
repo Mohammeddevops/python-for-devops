@@ -392,9 +392,18 @@ A = [ "Hulk", "Thor", "Ironman", "Captain America"]
       A.pop(1)
 
 
+
 List Functions Part (1):
+
+A = [ "Hulk", "Thor", "Ironman", "Captain America"]
+
   1. To create a copy of the list
+      l1=[13, 2, 35, 23]
+      l2=[]
+      l2=l1.copy()
+      print(l2)
   2. To access the element
+      
   3. To entend the list
   4. To reverse the list
   5. To sort the list
