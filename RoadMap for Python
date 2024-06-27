@@ -575,7 +575,7 @@ PROBLEM SOLVING:
     import json
     Student_data={"name":"David","age":13,"mark": 87}
     print(type(Student_data))  -> here now its dictionay
-    data = json.dump(Student_data)  -> convert dict into string
+    data = json.dump(Student_data)  -> convert dict/list into formatted string
     print(data)
     print(type(data))  -> it now in string
 
@@ -589,7 +589,11 @@ PROBLEM SOLVING:
 
 
 3. Pretty print following JSON data
-   Student_data={"name":"David","age":13,"mark": 87}
+    import json   
+    Student_data={"name":"David","age":13,"mark": 87}
+    data = json.dumps(student_data, indent = 4, separators = (",","="))
+    print(data)
+
 4. Sort the follwoing keys and write them into file
    Student_data={"name":"David","age":13,"mark": 87}
 5. Access the nested key marks from the following nested data
