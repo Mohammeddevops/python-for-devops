@@ -91,7 +91,12 @@ PROBLEM QUESTION TILL NOW:
 4. Write a program to take a details from the student for ID-card and then print it in the different lines.
 5. Write a program to take an user input as integer then convert it into float.
 
+
+###################################################################################################################################################
+
+
 OPERATORS AND OPERANDS:
+
 Operands: indicates what operation is to be performed.
 a, x, y
 Operators: indicated on what the action or the operation should be performed
@@ -141,6 +146,8 @@ OPERATORS:
     1. In, 
     2. not in
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Control Flow
     if, elif, else Statements (Conditional)
@@ -164,7 +171,9 @@ PROBLEM SOLVING:
 4. Write a program check wheather the passed letter is vowel or not
 5. Write a program check if the number is single digit or not upto 5 digits.
 
------------------------------------------------------------------------------------------------------------------------
+
+####################################################################################################################################################
+
 
 INTRODUCTION TO LOOPS:
 Types of loops:
@@ -217,10 +226,15 @@ A = "Why fit in, when you are bourn to stand out"
 4. Write the program to convert the following string into a title.
 5. Write the program to find index number of "fit" in.
 
----------------------------------------------------------------------------------------------------------------
+
+##############################################################################################################################################
+
+STRINGS:
 
 Strings: Strings are the combination of number, symbols and letters, enclosed inside quotions.
-Functions in strings part-1: 
+
+FUNCTION IN STIRNGS PART-1: 
+
 1. length
 2. count
 3. upper
@@ -232,7 +246,10 @@ Functions in strings part-1:
 9. format {}  -> to write a variable inside a string    eg: a= "my name is {}"   print(a.format(a))
 10. center(20, "*") -> fill the given character and centralizes a string
 
-Function in strings part-2
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+FUNCTION IN STIRNGS PART-2: 
+
 a="hello"
 b="Hello123"
 c="123456"
@@ -252,7 +269,10 @@ g=" 1.234"
 8. isspace - return true if all character in the string are whitespace (full string should be in whitespace) only space
 9. istitle - return true if all character in the string (all first letter should be in capital)
 
-Function in strings part-3
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+FUNCTION IN STIRNGS PART-3: 
+
 a = "Harry Porter"
 1. endswith  -> returns true if the string ends with the specific value (case sensitive)
    print(a.endswith("r",10,12)) 
@@ -279,6 +299,8 @@ a = "Harry Porter"
 10. rfind()  -> searches the string in a specified value and returns
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Slicing in strings:
   1. string slicing
@@ -292,6 +314,8 @@ PROBLEM SOLVING:
   2. write a program to check if the number is prime or not
   3. write a program to find the palindrom 
   4. write a program to create area of calculator
+
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 PROBLEM SOLVING:
 A = "OOTD.YOLO.ASAP.BRB.GTG.OTW"
@@ -311,7 +335,7 @@ A = "OOTD.YOLO.ASAP.BRB.GTG.OTW"
       a = "she sells seashells on the sea shore"
       b = a.count("sea")
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 PROBLEM SOLVING:
   1. Take a input from the user as a string then, reverse it.
@@ -516,6 +540,10 @@ Example of tuple:
 empty tuple:  tuple that contain no element
   a=()    
 
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Slicing and ItEration in TUPLES:
 
 a=("oneplus", "redmi", "samsung", "nothing")
@@ -545,6 +573,7 @@ a=("oneplus", "redmi", "samsung", "nothing")
         print(a[i])
         i=i+1
 
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 CONVERSION OF TUPLES AND TUPLES FUNCTION:
 
@@ -608,6 +637,70 @@ PROBLEM SOLVING:
                      }""" 
     data = json.loads(student_data)
     print(data["student"]["grade"]["marks"])
+
+
+#############################################################################################################################################
+
+INTRODUCTION TO DICTIONARY:
+
+Dictionary: 
+  Dictionary allows user to write the data in the form of keys and values.
+    * Dictionary are enclosed inside curly brackets {}
+    * Keys and Values are spearated by colon
+    * Every key value pair is separated by a comma(,)
+
+Syntax:
+  Employee_data = {"name": "John", "age": 24, "gender": "male"}
+  print(Employee_data["gender"]) -> her we won't use index, we use key access value
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+ITERATION IN DICTIONARY:
+  * Iteration in dictionary:
+      students_data = {"name": "John", "class": "6th", "roll_no":"23"}
+  
+  * Print all the key names one by one:
+      for x in students_data:
+        print(x) -> will get all the keys
+  
+  * Print all the key names one by one:
+      for x in student_data:
+        print(students[x])
+
+  * Using value function:
+      for x in student_data.values():
+        print(x)
+  
+  * Using Items function:
+      for x,y in students_data.items():
+        print(x ":" y)
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+DICTIONARY FUNCTIONS PART - 1:
+
+students_data = {"name": "John", "class": "6th", "roll_no":"23"}
+
+1. get:
+    x = students_data.get("name")
+    print(x)
+
+2. items: -> need output in tuple
+    x = students_data.items()
+    print(x)
+
+3. keys:
+    x = students_data.keys()
+    print(x)
+
+4. values:
+    x = students_data.values()
+    print(x)
+
+5. copy:
+    x = students_data.keys()
+    print(x)
+
 
 
 
