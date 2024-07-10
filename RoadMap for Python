@@ -702,6 +702,37 @@ students_data = {"name": "John", "class": "6th", "roll_no":"23"}
     print(x)
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+DICTIONARY FUNCTIONS PART - 2:
+
+students_data = {"name": "John", "class": "6th", "role_no":23}
+
+1. setdefault - gievn the exact value even after we give wrong value
+    students_data = {"name": "John", "class": "6th", "role_no":23}
+    X = students_data.setdefalut("role_no",24)
+    print(X)     -> you will get 23 as output
+
+2. update
+    students_data = {"name": "John", "class": "6th", "role_no":23}
+    students_data.update({"roll_no": 24})
+    print(students_data) - output will be updated 23 to 24
+
+  without update function: (which will add one more) 
+    students_data["role_no"] = 24
+    print(students_data)
+
+IMPORTANT TRICKY QUESTION
+3. pop
+    students_data = {"name": "John", "class": "6th", "roll_no":23}
+    X=students_data.pop("roll_no")
+    print(X)
+    print(students_data)
+
+
+4. popitem
+5. clear
+
 
 
 
