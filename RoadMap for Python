@@ -430,6 +430,7 @@ A = [ "Hulk", "Thor", "Ironman", "Captain America"]
       A.pop(1)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
+
 LIST COMPREHENSION:
 
 Eg:
@@ -544,7 +545,7 @@ empty tuple:  tuple that contain no element
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Slicing and ItEration in TUPLES:
+SICING AND ITERATION IN TUPLES:
 
 a=("oneplus", "redmi", "samsung", "nothing")
 print(a[2])
@@ -732,6 +733,66 @@ IMPORTANT TRICKY QUESTION
 
 4. popitem
 5. clear
+
+
+###################################################################################################################################################################
+
+NESTED DICTIONARIES: 
+
+A dictionary can contain dictionaries, this is called nested dictionaries.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+PROBLEM SOLVING:
+
+    1. WRITE A PYTHON PROGRAM TO SORT A DICTIONARY BY VALUE
+       a = {"a": 12, "b": 23, "c": 6, "d": 91, "e": 45}
+       a = sorted(a.values())
+       print(a)
+
+    SORT ALL THE DICT GIVEN
+       a = {"a": 12, "b": 23, "c": 6, "d": 91, "e": 45}
+       b = sorted(a.items(), key = lambda item: item[1])   # lambda function extracts the value for sorting
+       print(b)
+
+    2. WRITE A PYTHON SCRIPT TO PRINT A DICTIONARY WHERE THE KEYS ARE NUMBERS BETWEEN 1 AND 15 AND THE VALUES ARE SQUARE OF KEYS.
+       a = {}
+       for i in range(1,16):
+          a[i] = i**2
+       print(a)
+
+
+    3. WRITE A PROGRAM TO MULTIPLY ALL THE ITEMS IN A DIRECTORY
+       a = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5}
+       product = 1
+       for i in a:
+         product = a[i]
+       print(product)
+   
+
+    4. WRITE A PROGRAM TO SORT A  DICTIONARY BY KEY
+       a = {12 : "a", 32 : "b", 73 : "c", 24 : "d", 15 : "e"}
+       b = sorted(a.keys())
+       # b = dict(sorted(a.items()))   -> dict() directly iterate to the iterable the key value pairs
+       print(b)
+
+
+
+###########################################################################################################################################################
+
+INTRODUCTION TO SETS:
+
+SETS: Sets are unordered collection of data. 
+      Every element inside the set is unique and mutable.
+
+* Sets are written inside the curly brackets
+* The value inside the set is separated by (,)
+* Mutable means once created, they can be changed
+* Every output in set will be in different order
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+SETS FUNCTION
 
 
 
