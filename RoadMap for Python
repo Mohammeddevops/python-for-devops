@@ -790,17 +790,74 @@ SETS: Sets are unordered collection of data.
 * Mutable means once created, they can be changed
 * Every output in set will be in different order
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+#######################################################################################################################################################
 
 SETS FUNCTION
 
+Sets are the unordered collection of data. 
+Every element inside the side is unique and mutable.
+* Sets are written inside the curly brackets
+* The value inside a set is separated by coma(,)
+* Mutable means once created, they can be changed
+
+Syntax:
+  a = {"Ironman", "Hulk", "Thor", "Captain America"}
+  print(a)
+  for i in a:
+    print(i)
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+SETS FUNCTION PART-1 :
+
+  1. ADD
+     a = {"Ironman", "Hulk", "Thor", "Captain America"}
+     a.add("spiderman")    -> # Which will be unorderly added (refresh the order will be changed)
+     print(a)
+
+  2. POP  -> ramdomly delete any item from the set
+     a = {"Ironman", "Hulk", "Thor", "Captain America"}
+     a.pop()
+     print(a)
+
+  3. REMOVE  -> to remote oerticular element
+     a = {"Ironman", "Hulk", "Thor", "Captain America"}
+     a.remove("Ironman")
+     print(a)
+
+  4. DISCARD  -> same as remove but term is different
+
+  5. COPY
+     a = {"Ironman", "Hulk", "Thor", "Captain America"}
+     b=a.copy()
+     print(b)
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+SETS FUNCTION PART-2 :
+
+  1. isdisjoint:  -> checks one elements should not be in other with output in boolean 
+     a = {"Ironman", "Hulk", "Thor", "Captain America"}
+     b = {"spider man", "batman", "wonder-women"}
+     c = {"huld", "thor"}
+     print(a.isdisjoint(b))  -> True  # elements in "a" doesnot matched with element "b" is its disjoint
+     print(a.isdisjoint(c))  -> False  # elements in "a" matched with element "c" is its not disjoint
 
 
+  2. issubset:
+     a = {"Ironman", "Hulk", "Thor", "Captain America"}
+     b = {"spider man", "batman", "wonder-women"}
+     c = {"huld", "thor"}
+     print(c.issubset(a))  -> True # all elements of "c" are present in "a"
+     print(c.issubset(b))  -> False # all the elements of "c" are not present in "a"
 
 
+  3. isupperset:
 
+  4. update:
+
+  5. clear: 
 
 
 
