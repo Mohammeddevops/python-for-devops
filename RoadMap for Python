@@ -881,16 +881,16 @@ SETS FUNCTION PART-2 :
 
 SETS FUNCTION PART-3 :
 
-1. union    # no need of creating a new variable
+1. union    # no need of creating a new variable  (all prints once even after there is twice both from and A and B)
 
 
 2. difference    # In A and B set display only A element not even the commons once
 
 
-3. difference update    # update in the orginal set doesn't create a new one 
+3. difference update    # update in the orginal set doesn't create a new one a.diffrence.update(c) (removes the elements in 'c' from 'a')
 
 
-4. Intersection    # Only the common values
+4. Intersection    # Only the common values  (use variable for intersection)
 
 
 5. Intersectin update
