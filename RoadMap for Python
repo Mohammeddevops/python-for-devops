@@ -853,15 +853,50 @@ SETS FUNCTION PART-2 :
      print(c.issubset(b))  -> False # all the elements of "c" are not present in "a"
 
 
-  3. isupperset:
-
-  4. update:
-
-  5. clear: 
-
-
+  3. isupperset: The elements in A are there in C, where A is superset
+     a = {"Ironman", "Hulk", "Thor", "Captain America"}
+     b = {"spider man", "batman", "wonder-women"}
+     c = {"huld", "thor"}
+     print(a.issuperset(c))   -> True
 
 
+  4. update:  -> recomended to create a variable
+     a = {"Ironman", "Hulk", "Thor", "Captain America"}
+     b = {"spider man", "batman", "wonder-women"}
+     c = {"huld", "thor", "spider man"}
+     a.update(c)
+     print(a)
+     
+
+  5. clear:   -> to make the set empty
+     a = {"Ironman", "Hulk", "Thor", "Captain America"}
+     b = {"spider man", "batman", "wonder-women"}
+     c = {"huld", "thor", "spider man"}
+     a.clear()
+     print(a)
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+SETS FUNCTION PART-3 :
+
+1. union    # no need of creating a new variable
+
+
+2. difference    # In A and B set display only A element not even the commons once
+
+
+3. difference update    # update in the orginal set doesn't create a new one 
+
+
+4. Intersection    # Only the common values
+
+
+5. Intersectin update
+
+
+6. symentric update
 
 
 Python topics:
