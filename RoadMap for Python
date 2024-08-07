@@ -882,21 +882,59 @@ SETS FUNCTION PART-2 :
 SETS FUNCTION PART-3 :
 
 1. union    # no need of creating a new variable  (all prints once even after there is twice both from and A and B)
+    A={1,2,3,4,5}
+    B={4,5,6,7,8}
+    C={3,7,8,9,0}
+    print(A.union(C))
+    
 
-
-2. difference    # In A and B set display only A element not even the commons once
+2. difference    # In A and B set display only A element not even the commons once (remove the common ones as well)
+    A={1,2,3,4,5}
+    B={4,5,6,7,8}
+    C={3,7,8,9,0}
+    print(A.difference(C))
 
 
 3. difference update    # update in the orginal set doesn't create a new one a.diffrence.update(c) (removes the elements in 'c' from 'a')
+    A={1,2,3,4,5}
+    B={4,5,6,7,8}
+    C={3,7,8,9,0}
+    A.difference_update(C)
+    print(A)
 
 
-4. Intersection    # Only the common values  (use variable for intersection)
+4. Intersection    # Only the common values  (no need of using variable for intersection)
+    A={1,2,3,4,5}
+    B={4,5,6,7,8}
+    C={3,7,8,9,0}
+    print(A.intersection(C))
 
 
-5. Intersectin update
+5. Intersectin update    # update the set with new set from the intersection
+    A={1,2,3,4,5}
+    B={4,5,6,7,8}
+    C={3,7,8,9,0}
+    A.intersection_update(C)
+    print(A)
 
 
-6. symentric update
+6. symentric difference    # Return the new set, In 2 sets the common will be excluded and rest will be in one set without updateing into new one
+    A={1,2,3,4,5}
+    B={4,5,6,7,8}
+    C={3,7,8,9,0}
+    print(A.symantric_difference(C))
+
+
+7. symentric difference update    # update the orginal set
+    A={1,2,3,4,5}
+    B={4,5,6,7,8}
+    C={3,7,8,9,0}
+    A.symantric_difference_update(C)
+    print(A)
+
+
+
+
 
 
 Python topics:
