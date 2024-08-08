@@ -977,6 +977,41 @@ PROBLEM SOLVING SET:
 
 #############################################################################################################################################################
 
+FUNCTIONS: 
+
+Functions are a set of code, which once created they can be used throughout the program.
+Funtions help break our program into smaller part and help it look more organized and manageable
+
+There are 2 types of functions:
+  1. define a function
+  2. calling a function
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+PARAMETERS AND ARGUMENSTS: 
+
+PARAMETERS: 
+Parameters are variables written inside the parentheses with the name function
+
+ARGUMENSTS:
+Arguments are the values passed to the parameters while calling the function
+
+
+Function Syntax:
+
+def name_of_function(Parameters)
+    BODY (.....)
+
+function_call_by_function_name(Arguments)
+
+
+
+
+
+
+
+
 
 
 Python topics:
