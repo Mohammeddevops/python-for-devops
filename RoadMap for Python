@@ -945,14 +945,37 @@ PROBLEM SOLVING SET:
 
 
 1. WRITE A PROGRAM TO FIND A MAX AND MIN IN A SET
+    A={12, 56, 34, 8, 90, 1, 57}
+    print(max(A))
 
 
 2. WRITE A PROGRAM TO FIND COMMON ELEMENTS IN THREE LISTS USING SETS
+    A=[1,2,3,4,5]
+    B=[4,5,6,7,8]
+    C=[3,7,8,9,0]
+    print(set(A) & set(B) & set(C))    # set() will convert from list to set and "&" will collect the common once  (output will be in set)
+
+
 3. WRITE A PROGRAM TO FIND DIFFERENCE BETWEEN 2 SETS
+    A={1,2,3,4,5}
+    B={4,5,6,7,8}
+    print(A.difference(B))
+
+
 4. WRITE A PYTHON PROGRAM TO REMOVE AN ITEM FROM A SET IF IT IS PRESENT IN SET
+    A = { 1, 5, 6, 8, 2 }
+    A.discard(8)
+    print(A)
+
+
 5. WRITE A PYTHON PROGRAM TO CHECK IF A SET IS SUBSET OF ANYOTHER SET
+    A={ 1, 2, 3, 4, 5 }
+    B={2, 4, 5}
+    print(B.issubset(A))    # all items in B are present in A so output is true
 
 
+
+#############################################################################################################################################################
 
 
 
