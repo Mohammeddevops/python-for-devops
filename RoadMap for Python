@@ -1019,7 +1019,18 @@ RECURSION: Resursion is the most commonly used mathematical and programming conc
            In simple words, recursion means function can call itself, giving us a benefits of looping through data in order to get a result   
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------
 
+Example for recursion:
+
+    def fact(n):
+        if n==1:
+            return 1
+        else:
+            return(n*fact(n-1))
+    print(fact(5))
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
