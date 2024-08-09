@@ -998,12 +998,27 @@ ARGUMENSTS:
 Arguments are the values passed to the parameters while calling the function
 
 
-Function Syntax:
+FUNCTION SYNTAX:
 
-def name_of_function(Parameters)
-    BODY (.....)
+  def name_of_function(Parameters)
+      BODY (.....)
+    
+  function_call_by_function_name(Arguments)
 
-function_call_by_function_name(Arguments)
+  Arbitary arguments means can pass multiple arguments when the function si called under tuple
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+RETURN STATEMENT AND RECURSION IN FUNCTIONS:
+
+RETURN: Return in Keyword in python is used to exit a function and return the value of the function
+
+
+RECURSION: In simple words, recursion means  
+
+
+
 
 
 
