@@ -1044,6 +1044,60 @@ DISADVANTAGES:
 
 #############################################################################################################################################################
 
+LAMBDA FUNCTION:
+-> It is used when an anonymous function is required for a short period of time
+-> It can take numerous arguments
+-> It can only have one expression
+
+STRUCTURE OF LAMBDA:
+1.
+  a = lambda b: b*5
+  print(a(4))
+
+2.
+  x = lambda a,b,c: (a+b)*c
+  print(x(3,4,5))
+
+
+#############################################################################################################################################################
+
+GLOBAL AND LOCAL VARIABLES: 
+
+GLOBAL VARIABLE: 
+-> Variables declared outside of any function or class.
+-> Available throughout the entire code, including inside functions.
+-> They can be accessed and modified by any function in the script.
+
+SYNTAX:
+  # Global variable
+  x = 10
+
+  def print_global():
+      print("Global variable x:", x)  # Accessing global variable
+
+  print_global()  # This will print: Global variable x: 10
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+LOCAL VARIABLES:
+-> Variables declared inside a function.
+-> Available only within that function.
+-> They cannot be accessed outside of the function in which they are defined.
+
+SYNTAX: 
+
+  def print_local():
+      # Local variable
+      y = 5
+      print("Local variable y:", y)  # Accessing local variable
+
+  print_local()  # This will print: Local variable y: 5
+
+  # Attempting to access y outside the function will result in an error
+  # print(y)  # This will raise: NameError: name 'y' is not defined
+
+
+#############################################################################################################################################################
 
 
 
