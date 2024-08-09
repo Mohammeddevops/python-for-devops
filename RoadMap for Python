@@ -1032,6 +1032,20 @@ Example for recursion:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
+ADVANTAGES:
+  1. They make the code look clean and orgamized
+  2. By the use of recursive functions, a complex task can be broken down into small sub - parts
+  3. Sequence generation becomes easier
+
+DISADVANTAGES:
+  1. Recusrive Functions take up a lot of memory
+  2. Sometimes the logic becomes hards to follow
+
+
+#############################################################################################################################################################
+
+
+
 
 
 
