@@ -1179,6 +1179,26 @@ If we need to the square root result in between 1 to 30
    print(fibonacci(9))
 
 
+#############################################################################################################################################################
+
+OOPS: OBJECT ORIENTED PROGRAMMING
+
+Every thing in python is object
+But why it is in object?
+OOps is the combination of object, class, encapsulation, polymorphism, Abstraction, Inheritance
+
+
+1. CLASS:
+   for example:
+   a=2
+   type(a)  # output: <class 'int'>
+
+which means every object comes under a class her its like int is under a class 
+    
+
+
+
+
 
 
 
