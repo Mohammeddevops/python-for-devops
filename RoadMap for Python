@@ -1194,6 +1194,13 @@ OOps is the combination of object, class, encapsulation, polymorphism, Abstracti
    type(a)  # output: <class 'int'>
 
 which means every object comes under a class her its like int is under a class 
+
+Data type is class, the variable through which is created its a object
+For example:
+L = [1,2,3,4,5]
+[1,2,3,4,5]  -> its a list object of the class list 
+
+The question is which type take more time to write a code its a class or object ?
     
 
 
