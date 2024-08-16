@@ -1217,8 +1217,31 @@ There are different types writting a case:
 2. Cammel case  -> cammelCase
 3. snake case   -> snake_case
 
-    
 
+Class Basic Structure:
+
+class Car:
+  color = "blue"  #data
+  model = "sports"  #data
+  def  calculate_average_speed(km, time)
+    #some code
+
+class name is written in pascal case
+inside class data and function is written in snake_case
+
++ indicate public available
+- indicate private
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+OBJECT:
+
+Object Example:
+1. car -----> WagonR   //   wagonR = car()  -> object =  class()
+2. sports -----> Gilli Danda  //  Gilli Danda = sports()
+3. Animal  -----> Langoor  // Langoor = Animal()
 
 
 
