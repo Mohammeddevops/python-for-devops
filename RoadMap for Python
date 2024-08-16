@@ -1200,7 +1200,23 @@ For example:
 L = [1,2,3,4,5]
 [1,2,3,4,5]  -> its a list object of the class list 
 
-The question is which type take more time to write a code its a class or object ?
+Which sort of code—classes or objects—takes longer to write is the question ?
+Its Class
+Because it contain multiple function in it
+
+Class is a blueprint, blueprint of how thw object will behave
+
+Class has 2 important things:
+1. data / property / attributes
+2. Function / behaviour
+
+Class will be in Pascal case
+
+There are different types writting a case:
+1. Pascal case  -> PascalCase
+2. Cammel case  -> cammelCase
+3. snake case   -> snake_case
+
     
 
 
