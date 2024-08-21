@@ -1204,18 +1204,21 @@ Which sort of code—classes or objects—takes longer to write is the question 
 Its Class
 Because it contain multiple function in it
 
-Class is a blueprint, blueprint of how thw object will behave
+Class is a blueprint, blueprint of how the object will behave
 
 Class has 2 important things:
 1. data / property / attributes
 2. Function / behaviour
 
-Class will be in Pascal case
+Class will be written in Pascal case
 
 There are different types writting a case:
 1. Pascal case  -> PascalCase
 2. Cammel case  -> cammelCase
 3. snake case   -> snake_case
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Class Basic Structure:
@@ -1233,8 +1236,8 @@ inside class data and function is written in snake_case
 - indicate private
 
 
-
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 OBJECT:
 
@@ -1243,6 +1246,22 @@ Object Example:
 2. sports -----> Gilli Danda  //  Gilli Danda = sports()
 3. Animal  -----> Langoor  // Langoor = Animal()
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Lets create a class with an example using "ATM_machine"
+
+Data Required: 
+
+1. balance
+2. ATM pin
+3. withdraw
+4. deposit
+
+
+Functions and methods:
+Methods are basically function written inside a class
 
 
 
